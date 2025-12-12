@@ -1,0 +1,24 @@
+{
+  "name": "docker-session-node-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js app with Redis and MongoDB connections for Docker session",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "redis",
+    "mongodb",
+    "docker"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "redis": "^4.6.10",
+    "mongodb": "^6.2.0"
+  }
+}
+
